@@ -34,4 +34,7 @@
 */
 
 return array(
-  'sparkdown' => array('auto' => 'true'));
+  'sparkdown' => array('auto' => 'true'),
+  /*'ldapauth' => array('auto' => 'true'),*/
+);
+

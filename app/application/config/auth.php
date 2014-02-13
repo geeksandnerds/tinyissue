@@ -17,6 +17,7 @@ return array(
 	*/
 
 	'driver' => 'eloquent',
+  /*'driver' => 'ldapauth',*/
 
 	/*
 	|--------------------------------------------------------------------------
@@ -56,5 +57,16 @@ return array(
 	*/
 
 	'table' => 'users',
-
+  /*'ldap' => array(
+    'host' => '10.1.1.100',
+    'domain' => '',
+    'ldap_type' => 'openldap',
+    'base_dn' => 'dc=gancorp,dc=com',
+    'user_dn' => 'ou=Employees,ou=People,dc=gancorp,dc=com',
+    'user_search' => 'sAMAccountName',
+    'control_user' => 'cn=Myles Hathcock,OU=IT,OU=People,DC=gancorp,DC=com',
+    'control_password' => 'Aesahaett1',
+  ),
+  */
 );
+
